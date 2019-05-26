@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.prueba">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActividadShower"></activity>
+        <activity android:name=".ActividadLavarseCara" />
+        <activity android:name=".Actividad_dientes" />
+        <activity
+            android:name=".CategoriaDeportesActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity
+            android:name=".CategoriaToysActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity
+            android:name=".CategoriaRopaActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity android:name=".CategoriaUtilesActivity" />
+        <activity android:name=".PictogramITOActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoriaAnimalesActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity
+            android:name=".ActividadLavarseActivity"
+            android:parentActivityName=".CategoriaActividadesActivity" />
+        <activity
+            android:name=".CategoriaActividadesActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity
+            android:name=".CategoriaEmocionesActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity
+            android:name=".CategoriaComidaActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity
+            android:name=".AjustesActivity"
+            android:parentActivityName=".PictogramITOActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
